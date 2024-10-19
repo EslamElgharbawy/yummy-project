@@ -1,0 +1,87 @@
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="loading">
+        <i class="spinner fa fa-spinner fa-spin fa-5x"></i>
+    </div>
+    <div class="container w-75" id="Search">
+
+    </div>
+    
+    <div class="min-vh-100 position-relative">
+        <div class="inner-loading-screen top-0 start-0 end-0 bottom-0 justify-content-center align-items-center">
+            <i class="text-white fa fa-spinner fa-spin fa-5x"></i>
+        </div>
+
+    <div class="container ">
+        <div class="row py-5 g-4 " id="rowData">
+            
+
+        </div>
+    </div>
+
+    <div class="sideNave min-vh-100 ">
+        <div class="body p-4  d-flex flex-column justify-content-between ">
+            <div class="links">
+                <ul class="p-0">
+                    <li onclick="showSearchInputs(),closeNav()">Search</li>
+                    <li onclick="getCategories(),closeNav()">Categories</li>
+                    <li onclick="getArea(),closeNav()">Area</li>
+                    <li onclick="getIngredients(),closeNav()">Ingredients</li>
+                    <li onclick="showContacts(),closeNav()">Contact Us</li>
+                </ul>
+            </div>
+            <div class="body_footer text-white">
+                <div class="icons ">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <div class="footer_info">
+                    <p>Copyright Â© 2019 All Rights <br>Reserved.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="menue d-flex flex-column justify-content-between py-4 text-center px-2 bg-white text-black">
+
+            <img src="images/logo.png" alt="">
+            <i class="fa-solid open-close-icon fa-2x fa-x" id="close_open"></i>
+            <div class="d-flex flex-column">
+                <i class="fa-solid fa-globe m-1 cursor-pointer"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="CSS/bootstrap.bundle.min.js"></script>
+    <script src="CSS/jquery-3.7.1.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
